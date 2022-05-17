@@ -14,15 +14,19 @@ while(x==1){
  
   switch (liczba){
   case 1:
-      System.out.print("Podaj imie");  
+      System.out.print("Podaj imie");
       Scanner scan1 = new Scanner(System.in);
       String imie = scan1.nextLine();
       System.out.print("Podaj nazwisko"); 
       String nazwisko = scan1.nextLine();
       System.out.print("Podaj wiek");  
-      int wiek=scan1.nextInt();
+      int wiek=scan.nextInt();
       System.out.print("Podaj date urodz:"); 
       String urodz=scan1.nextLine();
+      System.out.print("");
+     // scanner.close();
+      
+      
 
       s.addStudent(new Student(imie, nazwisko, wiek, urodz));
     break;
